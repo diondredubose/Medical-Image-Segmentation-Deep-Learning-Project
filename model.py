@@ -8,17 +8,17 @@ import os
 import cv2
 
 # importing for read and write of neuroimaging data 
-import nibabel
+import nibabel as nib
 
 class UNETpp(torch.nn.Module):
     # UNET++ model implementation 
 
-    def __init__:
+    def __init__():
         super.__init__()
         
 
     class BottleNeckBlock(torch.nn.Module):
-        def __init__:
+        def __init__():
             super.__init__()
 
         def forward(x):
@@ -26,7 +26,7 @@ class UNETpp(torch.nn.Module):
         
 
     class EncoderBlock(torch.nn.Module):
-        def __init__:
+        def __init__():
             super.__init__()
 
         def forward(x):
@@ -34,7 +34,7 @@ class UNETpp(torch.nn.Module):
 
 
     class DecoderBlock(torch.nn.Module):
-        def __init__:
+        def __init__():
             super.__init__()
 
         def forward(x):
